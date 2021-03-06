@@ -1,0 +1,151 @@
+body {
+	color: #40514e;
+	margin: 0; /* This allows divs to go all the way across a page */
+	text-align: center;
+	font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+	color: #maroon;
+	font-size: 5rem;
+	margin: 50px auto 0 auto;
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans+Condensed:wght@300&family=Teko:wght@300&display=swap" rel="stylesheet">
+}
+
+h2 {
+	color: #66bfbf;
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans+Condensed:wght@300&family=Teko:wght@300&display=swap" rel="stylesheet">
+	font-size: 2.5rem;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+
+h3 {
+	color: #11999e;
+	font-family: "DotGothic16", sans-serif;
+}
+
+p {
+	line-height: 2;
+}
+
+hr {
+	border: dotted #66bfbf 6px;
+	border-bottom: none;
+	width: 4%;
+	margin: 100px auto;
+}
+
+a {
+	color: #11999e;
+	font-family: "DotGothic16", sans-serif;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #eaf6f6;
+}
+
+.profile-pic {
+	border-radius: 50%;
+}
+
+.top-container {
+	/* set a different background color for the top container that looks better*/
+	background-color: #a0e3f2;
+	position: relative;
+	padding-top: 100px;
+}
+
+.middle-container {
+	margin: 100px 0;
+}
+
+.bottom-container {
+	background-color: #552ba1;
+	padding: 50px 0 20px;
+}
+
+.hobbies-row {
+	background-clolor: maroon;
+	width: 50%;
+	margin: 100px auto 100px auto;
+	color: red;
+	text-align: left;
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Teko:wght@300&display=swap" rel="stylesheet">
+}
+
+.pro {
+	text-decoration: underline;
+}
+
+.intro {
+	width: 30%;
+	margin: auto;
+}
+
+.contact-message {
+	width: 40%;
+	margin: 40px auto 60px;
+}
+
+.copyright {
+	color: #eaf6f6;
+	font-size: 1rem;
+	padding: 20px 0;
+}
+
+.top-img {
+	position: absolute;
+	right: 200px;
+	top: 5px;
+	height: 200px;
+}
+
+.school-img {
+	position: relative;
+	padding: 20px;
+}
+.footer-link {
+	color: white;
+	font-size: 20px;
+}
+
+.hockey-img{
+	width: 30%;
+	float: right;
+	margin-right: 30px;
+}
+
+.movies-img {
+	width: 15%;
+	float: left;
+	margin-left: 30px;
+}
+
+.btn {
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	-webkit-border-radius: 60;
+	-moz-border-radius: 60;
+	border-radius: 60px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 23px;
+	padding: 10px 20px 10px 20px;
+	border: solid #9fb83d 9px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background: #9492d9;
+	text-decoration: none;
+}
