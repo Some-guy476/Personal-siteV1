@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+	<meta charset="utf-8">
+	<title>Jacob Hamre</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<!--   The link below applies the fonts we found online -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+
+<body>
+	<div class="top-container">
+		<!--   this img class is top-img. to find the style of this img, see the CSS for why it is positioned this way.-->
+		<img class="top-img" src="https://cdn2.iconfinder.com/data/icons/weather-color-2/500/weather-01-256.png" alt="top-right-img">
+		<div class="title-text">
+			<h1 style="color:maroon">Welcome to my website!</h1>
+			<!-- write your name here using the h2 tag.-->
+			<h2 style="color:red"> Jacob Hamre </h2>
+		</div>
+		<br><br><br>
+		<img class="school-img" src="https://cdn4.iconfinder.com/data/icons/creative-process-16/512/Tools-256.png" alt="school img">
+	</div>
+
+	<!--<div class="middle-container">
+		<div class="profile">
+			<h2>Hello.</h2>-->
+	<!-- add a p class below this line with the name 'intro' (already styled in CSS) -->
+
+	</div>
+	<hr>
+	<div class="hobbies">
+		<h2>My Hobbies:</h2>
+		<div class="hobbies-row">
+			<img class="hockey-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV9J_ISY2rCR6HwJzmjatQ_6d8wafYBIin1A&usqp=CAU" alt="Ice hockey-img">
+
+			<h3>Ice hockey</h3>
+			<p>I started playing goalie in ice hockey this season.I have played as a defnseman for 2 season's. </p>
+
+		</div>
+		<div class="hobbies-row">
+			<!-- add an image you find online WITH THE class "movies-img" below. Refer to pic above.-->
+
+			<h2>Movies and Shows</h2> <!-- Make this the same style as the previous heading/paragraph above^ -->
+			<h3> star wars ot and rots</h3>
+			<img class="movies-img" src="https://i.pinimg.com/originals/61/cd/58/61cd58f24752f85044e424345d9bd7ef.jpg" alt="sw ot poster">
+			<p3> A few movies i like are the star wars original trilogy, and the revenge of the sith. I also like Rouge one.
+
+		</div>
+	</div>
+	<hr>
+	<div class="contact-me">
+		<h2>If you for some reason want to get in touch with for whatever reason the click the button below</h2>
+
+		<br><br>
+		<a class="btn" href="jacob.hamre@motsd.org">CONTACT ME</a>
+	</div>
+	</div>
+
+	<div class="bottom-container">
+		<!-- In the bottom container, add 3 links: for ex, social media or any sites. 
+1 example has been added -->
+		<a class="footer-link" href="https://www.linkedin.com" target="_blank"> LinkedIn </a>
+
+		<!-- add a p class below this line with the name 'copyright' (already styled in CSS). Enter your name
+ and today's date-->
+
+		<p class="copyright"></p>
+	</div>
+</body>
+
+</HTML>
